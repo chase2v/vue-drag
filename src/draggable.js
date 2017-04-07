@@ -1,9 +1,13 @@
 import Vue from 'vue'
 
+export default function (Vue) {
+    Vue.directive('drag', draggable)
+}
+
 // 仅沿x或y或两轴移动
 let moveX, moveY, moveAll
 
-export default (el, binding, vnode) => {
+function draggable (el, binding, vnode) {
     // 调整鼠标光标
     el.style.cursor = '-webkit-grab'
 

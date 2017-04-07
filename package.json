@@ -2,7 +2,7 @@
   "name": "vue-drag",
   "version": "0.1.0",
   "description": "A Vue directive make component or element draggable.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ShaneVV/vue-drag/issues"
   },
-  "homepage": "https://github.com/ShaneVV/vue-drag#readme"
+  "homepage": "https://github.com/ShaneVV/vue-drag#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.3.2"
+  }
 }
